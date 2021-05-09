@@ -1,0 +1,7 @@
+nome = input()
+salario = float(input())
+vendas = float(input())
+comissao = vendas+(vendas*15/100)
+print(nome)
+print(salario)
+print(salario + comissao)
